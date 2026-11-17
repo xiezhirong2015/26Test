@@ -1,5 +1,5 @@
 安卓studio  
-hahhahaha
+
 格式化代码‌
 Windows/‌Linux:     Ctrl + Alt + L
 ‌Mac OS:               Cmd + Option + L
@@ -82,6 +82,9 @@ git switch xiaoxiong2
 创建并选择分支
 git switch -c hahah2  (c = create)  
 git switch -c  等同于 git checkout -b
+
+//合并分支  先选择进入你要进入的分支 如主分支  然后 合并其他分支 xiaoxiong3
+git merge xiaoxiong3
 
 
 
