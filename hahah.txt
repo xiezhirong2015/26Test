@@ -1,0 +1,22 @@
+安卓studio  
+
+格式化代码‌
+Windows/‌Linux:     Ctrl + Alt + L
+‌Mac OS:               Cmd + Option + L
+
+代码折叠和打开
+ 
+
+ Mac  os  通用     Option + Command + -
+
+
+
+{}：
+Windows/Linux：Ctrl + Shift + -
+macOS：           Command + Shift + -
+ []：
+Windows/Linux：Ctrl + Shift + [ 或 ]
+macOS：           Command + Shift + [ 或 ]
+()：
+Windows/Linux：Ctrl + Shift + ( 或 )
+macOS：           Command + Shift + ( 或 )
