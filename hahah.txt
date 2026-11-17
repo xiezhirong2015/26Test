@@ -20,3 +20,37 @@ macOS：           Command + Shift + [ 或 ]
 ()：
 Windows/Linux：Ctrl + Shift + ( 或 )
 macOS：           Command + Shift + ( 或 )
+
+
+git add aa.txt 添加 一个文件到暂存区    
+git add -A 添加改动的所有 
+
+git restore --staged aa.txt 从暂存区里面取出
+
+git commit -m "提交一个文件的描述"  提交文件
+
+提交过后本地会出来一个 .DS_Store文件  进行下面的操作 可以把这个文件在提交的时候不显示  会出来一个 。gitignore 文件
+
+
+#如果已经把 .DS_Store提交进仓库了 需要下面的操作
+#git rm --cached .DS_Store
+#git commit -m "remove .DS_Store from repo, add to gitignore"
+
+
+
+创建 / 修改 `.gitignore`，把它加进去：
+
+echo ".DS_Store" >> .gitignore
+
+
+
+
+# 加入暂存
+git add .gitignore
+# 提交
+git commit -m "add .gitignore, ignore .DS_Store"
+
+小提示：如果提交完还能看到 .DS_Store，是因为这个 .DS_Store 在创建 .gitignore 之前就已经被 Git 扫描到了，执行下面这条清理缓存即可：
+
+
+git rm --cached .DS_Store
