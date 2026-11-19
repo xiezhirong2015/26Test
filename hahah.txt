@@ -102,3 +102,10 @@ git worktree remove ../diaomaolujing
 
 Ssh-keygen -t ed25519 -C "978318874@qq.com"
 
+git remote set-url origin git@github.com:xiezhirong2015/26Test.git
+
+
+git push -u origin main
+
+后面就是 git add --> git commit --> git push
+
