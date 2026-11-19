@@ -67,6 +67,7 @@ git reset --hard HEAD~1   工作区 暂存区  提交历史  同时回滚
 
 git revert HEAD 新创建一个commit 抵消第一个
 
+git diff 查看改动
 
 显示所有分支
 git branch
@@ -86,5 +87,18 @@ git switch -c  等同于 git checkout -b
 //合并分支  先选择进入你要进入的分支 如主分支  然后 合并其他分支 xiaoxiong3
 git merge xiaoxiong3
 
+//删除分支
+git branch -d xiaoxiong3
 
+
+git rebase main  有冲突就改完  git add , git rebase --continue 
+
+git stash 把当前分支上没有写完的内容藏起来  然后才能切换分支   //适合临时被打断的情况
+git stash pop 取出内容
+			worktree 名称  文件夹名称   主分支
+git worktree add -b diaomao ../diaomaolujing main
+git worktree remove ../diaomaolujing
+
+
+Ssh-keygen -t ed25519 -C "978318874@qq.com"
 
